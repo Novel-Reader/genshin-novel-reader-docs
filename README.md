@@ -1,4 +1,5 @@
 # Genshin-novel-reader-doc
+
 原神小说阅读器的每个组件在 Github 上有独立的源代码库
 
 - 小说阅读器（javascript 版本）：https://github.com/Novel-Reader/Genshin-novel-reader

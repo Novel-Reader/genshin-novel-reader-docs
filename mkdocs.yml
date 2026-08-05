@@ -1,9 +1,9 @@
 site_name: Genshin novel reader documents
-site_author: Noella
+site_author: Noelle
 site_url: https://Novel-Reader.github.io
 repo_name: Novel-Reader
 repo_url: https://github.com/Novel-Reader/Novel-Reader.github.io
-copyright: Copyright &copy; Noella
+copyright: Copyright &copy; Noelle
 
 docs_dir: ./docs
 
@@ -46,12 +46,6 @@ markdown_extensions:
 
 plugins:
   - search
-  - minify:
-      minify_html: true
-      minify_js: true
-      minify_css: true
-      htmlmin_opts:
-        remove_comments: true
 
 extra:
   search:
@@ -60,26 +54,35 @@ extra:
 nav:
   - Readme: "index.md"
   - v2:
-      - "0-项目介绍": "v2/00-introduction.md"
-      - "1.0-项目功能": "v2/1.0-feature.md"
-      - "2.0-开发环境": "v2/2.0-env.md"
-      - "2.1-项目架构": "v2/2.1-structure.md"
-      - "2.2-前端技术": "v2/2.2-frontend.md"
-      - "2.3-后端技术": "v2/2.3-backend.md"
-      - "2.4-测试技术": "v2/2.4-test.md"
-      - "2.5-数据库设计": "v2/2.5-db.md"
-      - "2.6-批量上传文件": "v2/2.6-batch-upload-file.md"
-      - "2.7-状态管理": "v2/2.7-state-management.md"
-      - "2.8-高频词统计": "v2/2.8-high-frequency-words.md"
-      - "2.9-背景水印": "v2/2.9-background-watermark.md"
-      - "2.10-多语言支持": "v2/2.10-i18n.md"
-      - "2.11-文章数据存储": "v2/2.11-data-storage.md"
-      - "2.12-浏览器存储": "v2/2.12-browser-local-storage.md"
-      - "2.13-用户权限": "v2/2.13-user-permission.md"
-      - "2.14-更多问题": "v2/2.14-more.md"
-      - "3.1-API文档": "v2/3.1-api.md"
-      - "3.2-更改日志": "v2/3.2-change.md"
-      - "4.0-总结": "v2/4.0-conclusion.md"
+      - 项目概览:
+          - "项目介绍": "v2/1.0-introduction.md"
+          - "功能说明": "v2/1.1-feature.md"
+      - 开发基础:
+          - "开发环境": "v2/2.0-env.md"
+          - "项目架构": "v2/2.1-structure.md"
+          - "前端技术": "v2/2.2-frontend.md"
+          - "后端技术": "v2/2.3-backend.md"
+      - 数据与状态设计:
+          - "数据库设计": "v2/3.1-database.md"
+          - "文章数据存储": "v2/3.2-data-storage.md"
+          - "状态管理": "v2/3.3-state-management.md"
+          - "浏览器本地存储": "v2/3.4-browser-local-storage.md"
+          - "用户权限": "v2/3.5-user-permission.md"
+      - 功能实现:
+          - "批量上传文件": "v2/4.1-batch-upload-file.md"
+          - "多语言支持": "v2/4.2-i18n.md"
+          - "背景水印": "v2/4.3-background-watermark.md"
+          - "高频词统计": "v2/4.4-high-frequency-words.md"
+          - "书籍评分": "v2/4.5-book-rate.md"
+          - "书籍下载量统计": "v2/4.6-book-download-statistics.md"
+      - 测试与维护:
+          - "测试技术": "v2/5.1-test.md"
+          - "API 文档": "v2/5.2-api.md"
+          - "更新日志": "v2/5.3-change-log.md"
+          - "常见问题": "v2/5.4-FAQ.md"
+      - 项目总结:
+          - "开发感想和流程": "v2/6.1-thought.md"
+          - "总结": "v2/6.2-conclusion.md"
   - v1:
       - "0-项目介绍": "v1/00-introduction.md"
       - "1.0-项目功能": "v1/1.0-future.md"
