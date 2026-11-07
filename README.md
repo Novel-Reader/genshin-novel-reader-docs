@@ -2,6 +2,10 @@
 
 原神小说阅读器的每个组件在 Github 上有独立的源代码库
 
+## 项目声明与许可证
+
+本项目是粉丝制作项目，与米哈游及《原神》官方无关，也未获其认可或赞助。本项目没有商业推广的需求。仓库中的 MIT License 仅适用于作者有权授权的原创文档、代码和脚本，不涵盖米哈游或第三方拥有的商标、素材、代码及其他内容；这些内容仍受各自权利和许可约束。MIT License 允许他人在遵守许可证条件的前提下商业使用受其覆盖的内容；本项目没有商业推广需求的说明，不会限制该许可证授予的权利。详见仓库根目录的 `LICENSE` 文件。
+
 - 小说阅读器（javascript 版本）：https://github.com/Novel-Reader/Genshin-novel-reader
 - 小说服务器：https://github.com/Novel-Reader/Genshin-novel-reader-express-server
 - 小说阅读器（typescript 版）：https://github.com/Novel-Reader/novel-reader-ts
